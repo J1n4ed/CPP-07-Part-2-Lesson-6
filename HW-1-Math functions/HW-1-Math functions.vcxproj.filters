@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\main function">
+      <UniqueIdentifier>{f4449b4d-918a-4e5d-b50e-34aaace73f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math functions">
+      <UniqueIdentifier>{dd50904a-8301-412a-a4d9-d455811cb6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math functions">
+      <UniqueIdentifier>{0e79ea6b-a4be-4eec-8e6d-e5a79c8bc9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\read me">
+      <UniqueIdentifier>{9290643c-95b1-4c53-bf01-c4da76b80c68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md">
+      <Filter>Resource Files\read me</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mathfunc.h">
+      <Filter>Header Files\math functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\mathfunc.cpp">
+      <Filter>Source Files\math functions</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\main function</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
